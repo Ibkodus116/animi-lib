@@ -1,0 +1,21 @@
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-30px);}
+    60% {transform: translateY(-15px);}
+}
+
+
+@each $key,
+$val in $base-timing-function {
+    .bounce-#{$key}-infinite {
+        animation: $base-name-bounce $base-time $val $base-infinite;
+    }
+
+    @for $i from 1 through 3 {
+        .bounce-#{$key}-#{$i * 2} {
+            animation: $base-name-bounce $base-time ($i * 2) $val;
+        }
+    }
+}
+
+// animation: bounce 2s ease infinite;

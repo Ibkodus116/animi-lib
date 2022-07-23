@@ -1,0 +1,46 @@
+// Base = Animation
+// variables
+
+// animation names
+$base-name-bounce: bounce;
+$base-name-blink: blink;
+$base-name-fade-in: fade-in;
+$base-name-fade-out: fade-out;
+
+// animation timing/count
+$base-time: 2s;
+$base-count: 1;
+$base-infinite: infinite;
+
+// Maps of animation-timing-function
+$base-timing-function: (
+'linear':linear,
+'ease': ease,
+'ease-in': ease-in,
+'ease-out': ease-out,
+'ease-in-out': ease-in-out,
+);
+
+// Maps of duration in ms
+$base-duration: (
+'vfast':100ms,
+'fast': 200ms,
+'noraml': 500ms,
+'slow': 1s,
+'vslow': 2s,
+);
+
+$base-duration-two: (
+'vfast':1s,
+'fast': 1.5s,
+'noraml': 2s,
+'slow': 2.5s,
+'vslow': 3s,
+);
+ 
+
+// @debug map-get($base-timing-function,'linear'); get Value 
+// @debug map-has-key($base-timing-function,'linear');
+// @debug map-remove($base-timing-function,'linear');
+// @debug map-merge($base-timing-function,('line': line));
+

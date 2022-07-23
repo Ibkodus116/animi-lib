@@ -1,0 +1,16 @@
+@keyframes blink {
+    from { opacity: 1; }	
+    to { opacity: 0; }
+}
+
+@each $key,
+$val in $base-duration {
+    .blink-#{$key}-infinite {
+        animation: $base-name-blink $val ease $base-infinite alternate;
+    }
+    @for $i from 1 through 10 {
+        .blink-#{$key}-#{$i * 2} {
+            animation: $base-name-blink $val ease $i*2 alternate;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+// order of imported files matters that's you can use datas
+// from variable in base bcos variable comes before base 
+// using an item in base for variable will throw an error 
+// -------------------------------------
+// variables and functions
+@import 'variables';
+
+@import 'base';
+// Animations Features
+@import 'animations/bounce';
+@import 'animations/blink';
+@import 'animations/fadeout';
+@import 'animations/fadein';
+
+// colors
+
+
+
