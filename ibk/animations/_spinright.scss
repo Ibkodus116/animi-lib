@@ -1,0 +1,24 @@
+// this is a spinning animation
+
+@mixin move() {
+  width: 100px;
+    height: 100px;
+    background: #0000FF;
+    text-align: center;
+    color: #FFF;
+}
+
+
+@keyframes spinright {
+  0% { transform: rotate(360deg);}
+  100% { transform: rotate(0deg);}
+}
+
+
+.spin-right {
+    @include move;
+    animation: spinright 3s linear 0s 1 pause;
+    &:hover {
+      animation: spinright 3s linear 0s 1 reverse;
+    }
+  }
