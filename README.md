@@ -13,7 +13,7 @@ Examples of Classes that can be called
 .bounce-ease-out-2
 ```
 ------------------------------------------------------------------------------------------------------------------
-## Blink
+## Blink 
 
 Durations | Avail options |
 --- | --- |
