@@ -1,0 +1,16 @@
+
+.spin-left {
+    @include move;
+      animation: spin-left 3s linear 0s 1 pause;
+      &:hover {
+        animation: spin-left 3s linear 0s 1 normal;
+      }
+    }
+
+@keyframes spin-left {
+    0% { transform: rotate(360deg);}
+    100% { transform: rotate(0deg);}
+  }
+  
+  
+  

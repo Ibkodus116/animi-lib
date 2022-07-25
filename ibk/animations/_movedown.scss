@@ -1,0 +1,11 @@
+
+
+.move-down {
+    @include move-2;
+    animation: movedown 3s linear 0s infinite;
+}
+
+@keyframes movedown {
+    from{margin-top: 0%;}
+    to{margin-top: 100%;}
+}

@@ -1,0 +1,11 @@
+
+
+.move-right {
+    @include move-2;
+    animation: moveright 3s linear 0s infinite ;
+}
+
+@keyframes moveright {
+    from{margin-left: 0%;}
+    to{margin-left: 100%;}
+}

@@ -1,0 +1,1266 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* reset styles */
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+}
+
+.bounce-linear-infinite {
+  -webkit-animation: bounce 2s linear infinite;
+          animation: bounce 2s linear infinite;
+}
+
+.bounce-linear-2 {
+  -webkit-animation: bounce 2s 2 linear;
+          animation: bounce 2s 2 linear;
+}
+
+.bounce-linear-4 {
+  -webkit-animation: bounce 2s 4 linear;
+          animation: bounce 2s 4 linear;
+}
+
+.bounce-linear-6 {
+  -webkit-animation: bounce 2s 6 linear;
+          animation: bounce 2s 6 linear;
+}
+
+.bounce-ease-infinite {
+  -webkit-animation: bounce 2s ease infinite;
+          animation: bounce 2s ease infinite;
+}
+
+.bounce-ease-2 {
+  -webkit-animation: bounce 2s 2 ease;
+          animation: bounce 2s 2 ease;
+}
+
+.bounce-ease-4 {
+  -webkit-animation: bounce 2s 4 ease;
+          animation: bounce 2s 4 ease;
+}
+
+.bounce-ease-6 {
+  -webkit-animation: bounce 2s 6 ease;
+          animation: bounce 2s 6 ease;
+}
+
+.bounce-ease-in-infinite {
+  -webkit-animation: bounce 2s ease-in infinite;
+          animation: bounce 2s ease-in infinite;
+}
+
+.bounce-ease-in-2 {
+  -webkit-animation: bounce 2s 2 ease-in;
+          animation: bounce 2s 2 ease-in;
+}
+
+.bounce-ease-in-4 {
+  -webkit-animation: bounce 2s 4 ease-in;
+          animation: bounce 2s 4 ease-in;
+}
+
+.bounce-ease-in-6 {
+  -webkit-animation: bounce 2s 6 ease-in;
+          animation: bounce 2s 6 ease-in;
+}
+
+.bounce-ease-out-infinite {
+  -webkit-animation: bounce 2s ease-out infinite;
+          animation: bounce 2s ease-out infinite;
+}
+
+.bounce-ease-out-2 {
+  -webkit-animation: bounce 2s 2 ease-out;
+          animation: bounce 2s 2 ease-out;
+}
+
+.bounce-ease-out-4 {
+  -webkit-animation: bounce 2s 4 ease-out;
+          animation: bounce 2s 4 ease-out;
+}
+
+.bounce-ease-out-6 {
+  -webkit-animation: bounce 2s 6 ease-out;
+          animation: bounce 2s 6 ease-out;
+}
+
+.bounce-ease-in-out-infinite {
+  -webkit-animation: bounce 2s ease-in-out infinite;
+          animation: bounce 2s ease-in-out infinite;
+}
+
+.bounce-ease-in-out-2 {
+  -webkit-animation: bounce 2s 2 ease-in-out;
+          animation: bounce 2s 2 ease-in-out;
+}
+
+.bounce-ease-in-out-4 {
+  -webkit-animation: bounce 2s 4 ease-in-out;
+          animation: bounce 2s 4 ease-in-out;
+}
+
+.bounce-ease-in-out-6 {
+  -webkit-animation: bounce 2s 6 ease-in-out;
+          animation: bounce 2s 6 ease-in-out;
+}
+
+@-webkit-keyframes blink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.blink-vfast-infinite {
+  -webkit-animation: blink 100ms ease infinite alternate;
+          animation: blink 100ms ease infinite alternate;
+}
+
+.blink-vfast-2 {
+  -webkit-animation: blink 100ms ease 2 alternate;
+          animation: blink 100ms ease 2 alternate;
+}
+
+.blink-vfast-4 {
+  -webkit-animation: blink 100ms ease 4 alternate;
+          animation: blink 100ms ease 4 alternate;
+}
+
+.blink-vfast-6 {
+  -webkit-animation: blink 100ms ease 6 alternate;
+          animation: blink 100ms ease 6 alternate;
+}
+
+.blink-vfast-8 {
+  -webkit-animation: blink 100ms ease 8 alternate;
+          animation: blink 100ms ease 8 alternate;
+}
+
+.blink-vfast-10 {
+  -webkit-animation: blink 100ms ease 10 alternate;
+          animation: blink 100ms ease 10 alternate;
+}
+
+.blink-vfast-12 {
+  -webkit-animation: blink 100ms ease 12 alternate;
+          animation: blink 100ms ease 12 alternate;
+}
+
+.blink-vfast-14 {
+  -webkit-animation: blink 100ms ease 14 alternate;
+          animation: blink 100ms ease 14 alternate;
+}
+
+.blink-vfast-16 {
+  -webkit-animation: blink 100ms ease 16 alternate;
+          animation: blink 100ms ease 16 alternate;
+}
+
+.blink-vfast-18 {
+  -webkit-animation: blink 100ms ease 18 alternate;
+          animation: blink 100ms ease 18 alternate;
+}
+
+.blink-vfast-20 {
+  -webkit-animation: blink 100ms ease 20 alternate;
+          animation: blink 100ms ease 20 alternate;
+}
+
+.blink-fast-infinite {
+  -webkit-animation: blink 200ms ease infinite alternate;
+          animation: blink 200ms ease infinite alternate;
+}
+
+.blink-fast-2 {
+  -webkit-animation: blink 200ms ease 2 alternate;
+          animation: blink 200ms ease 2 alternate;
+}
+
+.blink-fast-4 {
+  -webkit-animation: blink 200ms ease 4 alternate;
+          animation: blink 200ms ease 4 alternate;
+}
+
+.blink-fast-6 {
+  -webkit-animation: blink 200ms ease 6 alternate;
+          animation: blink 200ms ease 6 alternate;
+}
+
+.blink-fast-8 {
+  -webkit-animation: blink 200ms ease 8 alternate;
+          animation: blink 200ms ease 8 alternate;
+}
+
+.blink-fast-10 {
+  -webkit-animation: blink 200ms ease 10 alternate;
+          animation: blink 200ms ease 10 alternate;
+}
+
+.blink-fast-12 {
+  -webkit-animation: blink 200ms ease 12 alternate;
+          animation: blink 200ms ease 12 alternate;
+}
+
+.blink-fast-14 {
+  -webkit-animation: blink 200ms ease 14 alternate;
+          animation: blink 200ms ease 14 alternate;
+}
+
+.blink-fast-16 {
+  -webkit-animation: blink 200ms ease 16 alternate;
+          animation: blink 200ms ease 16 alternate;
+}
+
+.blink-fast-18 {
+  -webkit-animation: blink 200ms ease 18 alternate;
+          animation: blink 200ms ease 18 alternate;
+}
+
+.blink-fast-20 {
+  -webkit-animation: blink 200ms ease 20 alternate;
+          animation: blink 200ms ease 20 alternate;
+}
+
+.blink-noraml-infinite {
+  -webkit-animation: blink 500ms ease infinite alternate;
+          animation: blink 500ms ease infinite alternate;
+}
+
+.blink-noraml-2 {
+  -webkit-animation: blink 500ms ease 2 alternate;
+          animation: blink 500ms ease 2 alternate;
+}
+
+.blink-noraml-4 {
+  -webkit-animation: blink 500ms ease 4 alternate;
+          animation: blink 500ms ease 4 alternate;
+}
+
+.blink-noraml-6 {
+  -webkit-animation: blink 500ms ease 6 alternate;
+          animation: blink 500ms ease 6 alternate;
+}
+
+.blink-noraml-8 {
+  -webkit-animation: blink 500ms ease 8 alternate;
+          animation: blink 500ms ease 8 alternate;
+}
+
+.blink-noraml-10 {
+  -webkit-animation: blink 500ms ease 10 alternate;
+          animation: blink 500ms ease 10 alternate;
+}
+
+.blink-noraml-12 {
+  -webkit-animation: blink 500ms ease 12 alternate;
+          animation: blink 500ms ease 12 alternate;
+}
+
+.blink-noraml-14 {
+  -webkit-animation: blink 500ms ease 14 alternate;
+          animation: blink 500ms ease 14 alternate;
+}
+
+.blink-noraml-16 {
+  -webkit-animation: blink 500ms ease 16 alternate;
+          animation: blink 500ms ease 16 alternate;
+}
+
+.blink-noraml-18 {
+  -webkit-animation: blink 500ms ease 18 alternate;
+          animation: blink 500ms ease 18 alternate;
+}
+
+.blink-noraml-20 {
+  -webkit-animation: blink 500ms ease 20 alternate;
+          animation: blink 500ms ease 20 alternate;
+}
+
+.blink-slow-infinite {
+  -webkit-animation: blink 1s ease infinite alternate;
+          animation: blink 1s ease infinite alternate;
+}
+
+.blink-slow-2 {
+  -webkit-animation: blink 1s ease 2 alternate;
+          animation: blink 1s ease 2 alternate;
+}
+
+.blink-slow-4 {
+  -webkit-animation: blink 1s ease 4 alternate;
+          animation: blink 1s ease 4 alternate;
+}
+
+.blink-slow-6 {
+  -webkit-animation: blink 1s ease 6 alternate;
+          animation: blink 1s ease 6 alternate;
+}
+
+.blink-slow-8 {
+  -webkit-animation: blink 1s ease 8 alternate;
+          animation: blink 1s ease 8 alternate;
+}
+
+.blink-slow-10 {
+  -webkit-animation: blink 1s ease 10 alternate;
+          animation: blink 1s ease 10 alternate;
+}
+
+.blink-slow-12 {
+  -webkit-animation: blink 1s ease 12 alternate;
+          animation: blink 1s ease 12 alternate;
+}
+
+.blink-slow-14 {
+  -webkit-animation: blink 1s ease 14 alternate;
+          animation: blink 1s ease 14 alternate;
+}
+
+.blink-slow-16 {
+  -webkit-animation: blink 1s ease 16 alternate;
+          animation: blink 1s ease 16 alternate;
+}
+
+.blink-slow-18 {
+  -webkit-animation: blink 1s ease 18 alternate;
+          animation: blink 1s ease 18 alternate;
+}
+
+.blink-slow-20 {
+  -webkit-animation: blink 1s ease 20 alternate;
+          animation: blink 1s ease 20 alternate;
+}
+
+.blink-vslow-infinite {
+  -webkit-animation: blink 2s ease infinite alternate;
+          animation: blink 2s ease infinite alternate;
+}
+
+.blink-vslow-2 {
+  -webkit-animation: blink 2s ease 2 alternate;
+          animation: blink 2s ease 2 alternate;
+}
+
+.blink-vslow-4 {
+  -webkit-animation: blink 2s ease 4 alternate;
+          animation: blink 2s ease 4 alternate;
+}
+
+.blink-vslow-6 {
+  -webkit-animation: blink 2s ease 6 alternate;
+          animation: blink 2s ease 6 alternate;
+}
+
+.blink-vslow-8 {
+  -webkit-animation: blink 2s ease 8 alternate;
+          animation: blink 2s ease 8 alternate;
+}
+
+.blink-vslow-10 {
+  -webkit-animation: blink 2s ease 10 alternate;
+          animation: blink 2s ease 10 alternate;
+}
+
+.blink-vslow-12 {
+  -webkit-animation: blink 2s ease 12 alternate;
+          animation: blink 2s ease 12 alternate;
+}
+
+.blink-vslow-14 {
+  -webkit-animation: blink 2s ease 14 alternate;
+          animation: blink 2s ease 14 alternate;
+}
+
+.blink-vslow-16 {
+  -webkit-animation: blink 2s ease 16 alternate;
+          animation: blink 2s ease 16 alternate;
+}
+
+.blink-vslow-18 {
+  -webkit-animation: blink 2s ease 18 alternate;
+          animation: blink 2s ease 18 alternate;
+}
+
+.blink-vslow-20 {
+  -webkit-animation: blink 2s ease 20 alternate;
+          animation: blink 2s ease 20 alternate;
+}
+
+@-webkit-keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fade-out-vfast-infinite {
+  -webkit-animation: fade-out 1s ease infinite;
+          animation: fade-out 1s ease infinite;
+}
+
+.fade-out-vfast-2 {
+  -webkit-animation: fade-out 1s ease 2 alternate;
+          animation: fade-out 1s ease 2 alternate;
+}
+
+.fade-out-vfast-4 {
+  -webkit-animation: fade-out 1s ease 4 alternate;
+          animation: fade-out 1s ease 4 alternate;
+}
+
+.fade-out-vfast-6 {
+  -webkit-animation: fade-out 1s ease 6 alternate;
+          animation: fade-out 1s ease 6 alternate;
+}
+
+.fade-out-vfast-8 {
+  -webkit-animation: fade-out 1s ease 8 alternate;
+          animation: fade-out 1s ease 8 alternate;
+}
+
+.fade-out-vfast-10 {
+  -webkit-animation: fade-out 1s ease 10 alternate;
+          animation: fade-out 1s ease 10 alternate;
+}
+
+.fade-out-vfast-12 {
+  -webkit-animation: fade-out 1s ease 12 alternate;
+          animation: fade-out 1s ease 12 alternate;
+}
+
+.fade-out-vfast-14 {
+  -webkit-animation: fade-out 1s ease 14 alternate;
+          animation: fade-out 1s ease 14 alternate;
+}
+
+.fade-out-vfast-16 {
+  -webkit-animation: fade-out 1s ease 16 alternate;
+          animation: fade-out 1s ease 16 alternate;
+}
+
+.fade-out-vfast-18 {
+  -webkit-animation: fade-out 1s ease 18 alternate;
+          animation: fade-out 1s ease 18 alternate;
+}
+
+.fade-out-vfast-20 {
+  -webkit-animation: fade-out 1s ease 20 alternate;
+          animation: fade-out 1s ease 20 alternate;
+}
+
+.fade-out-fast-infinite {
+  -webkit-animation: fade-out 1.5s ease infinite;
+          animation: fade-out 1.5s ease infinite;
+}
+
+.fade-out-fast-2 {
+  -webkit-animation: fade-out 1.5s ease 2 alternate;
+          animation: fade-out 1.5s ease 2 alternate;
+}
+
+.fade-out-fast-4 {
+  -webkit-animation: fade-out 1.5s ease 4 alternate;
+          animation: fade-out 1.5s ease 4 alternate;
+}
+
+.fade-out-fast-6 {
+  -webkit-animation: fade-out 1.5s ease 6 alternate;
+          animation: fade-out 1.5s ease 6 alternate;
+}
+
+.fade-out-fast-8 {
+  -webkit-animation: fade-out 1.5s ease 8 alternate;
+          animation: fade-out 1.5s ease 8 alternate;
+}
+
+.fade-out-fast-10 {
+  -webkit-animation: fade-out 1.5s ease 10 alternate;
+          animation: fade-out 1.5s ease 10 alternate;
+}
+
+.fade-out-fast-12 {
+  -webkit-animation: fade-out 1.5s ease 12 alternate;
+          animation: fade-out 1.5s ease 12 alternate;
+}
+
+.fade-out-fast-14 {
+  -webkit-animation: fade-out 1.5s ease 14 alternate;
+          animation: fade-out 1.5s ease 14 alternate;
+}
+
+.fade-out-fast-16 {
+  -webkit-animation: fade-out 1.5s ease 16 alternate;
+          animation: fade-out 1.5s ease 16 alternate;
+}
+
+.fade-out-fast-18 {
+  -webkit-animation: fade-out 1.5s ease 18 alternate;
+          animation: fade-out 1.5s ease 18 alternate;
+}
+
+.fade-out-fast-20 {
+  -webkit-animation: fade-out 1.5s ease 20 alternate;
+          animation: fade-out 1.5s ease 20 alternate;
+}
+
+.fade-out-noraml-infinite {
+  -webkit-animation: fade-out 2s ease infinite;
+          animation: fade-out 2s ease infinite;
+}
+
+.fade-out-noraml-2 {
+  -webkit-animation: fade-out 2s ease 2 alternate;
+          animation: fade-out 2s ease 2 alternate;
+}
+
+.fade-out-noraml-4 {
+  -webkit-animation: fade-out 2s ease 4 alternate;
+          animation: fade-out 2s ease 4 alternate;
+}
+
+.fade-out-noraml-6 {
+  -webkit-animation: fade-out 2s ease 6 alternate;
+          animation: fade-out 2s ease 6 alternate;
+}
+
+.fade-out-noraml-8 {
+  -webkit-animation: fade-out 2s ease 8 alternate;
+          animation: fade-out 2s ease 8 alternate;
+}
+
+.fade-out-noraml-10 {
+  -webkit-animation: fade-out 2s ease 10 alternate;
+          animation: fade-out 2s ease 10 alternate;
+}
+
+.fade-out-noraml-12 {
+  -webkit-animation: fade-out 2s ease 12 alternate;
+          animation: fade-out 2s ease 12 alternate;
+}
+
+.fade-out-noraml-14 {
+  -webkit-animation: fade-out 2s ease 14 alternate;
+          animation: fade-out 2s ease 14 alternate;
+}
+
+.fade-out-noraml-16 {
+  -webkit-animation: fade-out 2s ease 16 alternate;
+          animation: fade-out 2s ease 16 alternate;
+}
+
+.fade-out-noraml-18 {
+  -webkit-animation: fade-out 2s ease 18 alternate;
+          animation: fade-out 2s ease 18 alternate;
+}
+
+.fade-out-noraml-20 {
+  -webkit-animation: fade-out 2s ease 20 alternate;
+          animation: fade-out 2s ease 20 alternate;
+}
+
+.fade-out-slow-infinite {
+  -webkit-animation: fade-out 2.5s ease infinite;
+          animation: fade-out 2.5s ease infinite;
+}
+
+.fade-out-slow-2 {
+  -webkit-animation: fade-out 2.5s ease 2 alternate;
+          animation: fade-out 2.5s ease 2 alternate;
+}
+
+.fade-out-slow-4 {
+  -webkit-animation: fade-out 2.5s ease 4 alternate;
+          animation: fade-out 2.5s ease 4 alternate;
+}
+
+.fade-out-slow-6 {
+  -webkit-animation: fade-out 2.5s ease 6 alternate;
+          animation: fade-out 2.5s ease 6 alternate;
+}
+
+.fade-out-slow-8 {
+  -webkit-animation: fade-out 2.5s ease 8 alternate;
+          animation: fade-out 2.5s ease 8 alternate;
+}
+
+.fade-out-slow-10 {
+  -webkit-animation: fade-out 2.5s ease 10 alternate;
+          animation: fade-out 2.5s ease 10 alternate;
+}
+
+.fade-out-slow-12 {
+  -webkit-animation: fade-out 2.5s ease 12 alternate;
+          animation: fade-out 2.5s ease 12 alternate;
+}
+
+.fade-out-slow-14 {
+  -webkit-animation: fade-out 2.5s ease 14 alternate;
+          animation: fade-out 2.5s ease 14 alternate;
+}
+
+.fade-out-slow-16 {
+  -webkit-animation: fade-out 2.5s ease 16 alternate;
+          animation: fade-out 2.5s ease 16 alternate;
+}
+
+.fade-out-slow-18 {
+  -webkit-animation: fade-out 2.5s ease 18 alternate;
+          animation: fade-out 2.5s ease 18 alternate;
+}
+
+.fade-out-slow-20 {
+  -webkit-animation: fade-out 2.5s ease 20 alternate;
+          animation: fade-out 2.5s ease 20 alternate;
+}
+
+.fade-out-vslow-infinite {
+  -webkit-animation: fade-out 3s ease infinite;
+          animation: fade-out 3s ease infinite;
+}
+
+.fade-out-vslow-2 {
+  -webkit-animation: fade-out 3s ease 2 alternate;
+          animation: fade-out 3s ease 2 alternate;
+}
+
+.fade-out-vslow-4 {
+  -webkit-animation: fade-out 3s ease 4 alternate;
+          animation: fade-out 3s ease 4 alternate;
+}
+
+.fade-out-vslow-6 {
+  -webkit-animation: fade-out 3s ease 6 alternate;
+          animation: fade-out 3s ease 6 alternate;
+}
+
+.fade-out-vslow-8 {
+  -webkit-animation: fade-out 3s ease 8 alternate;
+          animation: fade-out 3s ease 8 alternate;
+}
+
+.fade-out-vslow-10 {
+  -webkit-animation: fade-out 3s ease 10 alternate;
+          animation: fade-out 3s ease 10 alternate;
+}
+
+.fade-out-vslow-12 {
+  -webkit-animation: fade-out 3s ease 12 alternate;
+          animation: fade-out 3s ease 12 alternate;
+}
+
+.fade-out-vslow-14 {
+  -webkit-animation: fade-out 3s ease 14 alternate;
+          animation: fade-out 3s ease 14 alternate;
+}
+
+.fade-out-vslow-16 {
+  -webkit-animation: fade-out 3s ease 16 alternate;
+          animation: fade-out 3s ease 16 alternate;
+}
+
+.fade-out-vslow-18 {
+  -webkit-animation: fade-out 3s ease 18 alternate;
+          animation: fade-out 3s ease 18 alternate;
+}
+
+.fade-out-vslow-20 {
+  -webkit-animation: fade-out 3s ease 20 alternate;
+          animation: fade-out 3s ease 20 alternate;
+}
+
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in-vfast-infinite {
+  -webkit-animation: fade-in 1s ease infinite;
+          animation: fade-in 1s ease infinite;
+}
+
+.fade-in-vfast-2 {
+  -webkit-animation: fade-in 1s ease 2 alternate;
+          animation: fade-in 1s ease 2 alternate;
+}
+
+.fade-in-vfast-4 {
+  -webkit-animation: fade-in 1s ease 4 alternate;
+          animation: fade-in 1s ease 4 alternate;
+}
+
+.fade-in-vfast-6 {
+  -webkit-animation: fade-in 1s ease 6 alternate;
+          animation: fade-in 1s ease 6 alternate;
+}
+
+.fade-in-vfast-8 {
+  -webkit-animation: fade-in 1s ease 8 alternate;
+          animation: fade-in 1s ease 8 alternate;
+}
+
+.fade-in-vfast-10 {
+  -webkit-animation: fade-in 1s ease 10 alternate;
+          animation: fade-in 1s ease 10 alternate;
+}
+
+.fade-in-vfast-12 {
+  -webkit-animation: fade-in 1s ease 12 alternate;
+          animation: fade-in 1s ease 12 alternate;
+}
+
+.fade-in-vfast-14 {
+  -webkit-animation: fade-in 1s ease 14 alternate;
+          animation: fade-in 1s ease 14 alternate;
+}
+
+.fade-in-vfast-16 {
+  -webkit-animation: fade-in 1s ease 16 alternate;
+          animation: fade-in 1s ease 16 alternate;
+}
+
+.fade-in-vfast-18 {
+  -webkit-animation: fade-in 1s ease 18 alternate;
+          animation: fade-in 1s ease 18 alternate;
+}
+
+.fade-in-vfast-20 {
+  -webkit-animation: fade-in 1s ease 20 alternate;
+          animation: fade-in 1s ease 20 alternate;
+}
+
+.fade-in-fast-infinite {
+  -webkit-animation: fade-in 1.5s ease infinite;
+          animation: fade-in 1.5s ease infinite;
+}
+
+.fade-in-fast-2 {
+  -webkit-animation: fade-in 1.5s ease 2 alternate;
+          animation: fade-in 1.5s ease 2 alternate;
+}
+
+.fade-in-fast-4 {
+  -webkit-animation: fade-in 1.5s ease 4 alternate;
+          animation: fade-in 1.5s ease 4 alternate;
+}
+
+.fade-in-fast-6 {
+  -webkit-animation: fade-in 1.5s ease 6 alternate;
+          animation: fade-in 1.5s ease 6 alternate;
+}
+
+.fade-in-fast-8 {
+  -webkit-animation: fade-in 1.5s ease 8 alternate;
+          animation: fade-in 1.5s ease 8 alternate;
+}
+
+.fade-in-fast-10 {
+  -webkit-animation: fade-in 1.5s ease 10 alternate;
+          animation: fade-in 1.5s ease 10 alternate;
+}
+
+.fade-in-fast-12 {
+  -webkit-animation: fade-in 1.5s ease 12 alternate;
+          animation: fade-in 1.5s ease 12 alternate;
+}
+
+.fade-in-fast-14 {
+  -webkit-animation: fade-in 1.5s ease 14 alternate;
+          animation: fade-in 1.5s ease 14 alternate;
+}
+
+.fade-in-fast-16 {
+  -webkit-animation: fade-in 1.5s ease 16 alternate;
+          animation: fade-in 1.5s ease 16 alternate;
+}
+
+.fade-in-fast-18 {
+  -webkit-animation: fade-in 1.5s ease 18 alternate;
+          animation: fade-in 1.5s ease 18 alternate;
+}
+
+.fade-in-fast-20 {
+  -webkit-animation: fade-in 1.5s ease 20 alternate;
+          animation: fade-in 1.5s ease 20 alternate;
+}
+
+.fade-in-noraml-infinite {
+  -webkit-animation: fade-in 2s ease infinite;
+          animation: fade-in 2s ease infinite;
+}
+
+.fade-in-noraml-2 {
+  -webkit-animation: fade-in 2s ease 2 alternate;
+          animation: fade-in 2s ease 2 alternate;
+}
+
+.fade-in-noraml-4 {
+  -webkit-animation: fade-in 2s ease 4 alternate;
+          animation: fade-in 2s ease 4 alternate;
+}
+
+.fade-in-noraml-6 {
+  -webkit-animation: fade-in 2s ease 6 alternate;
+          animation: fade-in 2s ease 6 alternate;
+}
+
+.fade-in-noraml-8 {
+  -webkit-animation: fade-in 2s ease 8 alternate;
+          animation: fade-in 2s ease 8 alternate;
+}
+
+.fade-in-noraml-10 {
+  -webkit-animation: fade-in 2s ease 10 alternate;
+          animation: fade-in 2s ease 10 alternate;
+}
+
+.fade-in-noraml-12 {
+  -webkit-animation: fade-in 2s ease 12 alternate;
+          animation: fade-in 2s ease 12 alternate;
+}
+
+.fade-in-noraml-14 {
+  -webkit-animation: fade-in 2s ease 14 alternate;
+          animation: fade-in 2s ease 14 alternate;
+}
+
+.fade-in-noraml-16 {
+  -webkit-animation: fade-in 2s ease 16 alternate;
+          animation: fade-in 2s ease 16 alternate;
+}
+
+.fade-in-noraml-18 {
+  -webkit-animation: fade-in 2s ease 18 alternate;
+          animation: fade-in 2s ease 18 alternate;
+}
+
+.fade-in-noraml-20 {
+  -webkit-animation: fade-in 2s ease 20 alternate;
+          animation: fade-in 2s ease 20 alternate;
+}
+
+.fade-in-slow-infinite {
+  -webkit-animation: fade-in 2.5s ease infinite;
+          animation: fade-in 2.5s ease infinite;
+}
+
+.fade-in-slow-2 {
+  -webkit-animation: fade-in 2.5s ease 2 alternate;
+          animation: fade-in 2.5s ease 2 alternate;
+}
+
+.fade-in-slow-4 {
+  -webkit-animation: fade-in 2.5s ease 4 alternate;
+          animation: fade-in 2.5s ease 4 alternate;
+}
+
+.fade-in-slow-6 {
+  -webkit-animation: fade-in 2.5s ease 6 alternate;
+          animation: fade-in 2.5s ease 6 alternate;
+}
+
+.fade-in-slow-8 {
+  -webkit-animation: fade-in 2.5s ease 8 alternate;
+          animation: fade-in 2.5s ease 8 alternate;
+}
+
+.fade-in-slow-10 {
+  -webkit-animation: fade-in 2.5s ease 10 alternate;
+          animation: fade-in 2.5s ease 10 alternate;
+}
+
+.fade-in-slow-12 {
+  -webkit-animation: fade-in 2.5s ease 12 alternate;
+          animation: fade-in 2.5s ease 12 alternate;
+}
+
+.fade-in-slow-14 {
+  -webkit-animation: fade-in 2.5s ease 14 alternate;
+          animation: fade-in 2.5s ease 14 alternate;
+}
+
+.fade-in-slow-16 {
+  -webkit-animation: fade-in 2.5s ease 16 alternate;
+          animation: fade-in 2.5s ease 16 alternate;
+}
+
+.fade-in-slow-18 {
+  -webkit-animation: fade-in 2.5s ease 18 alternate;
+          animation: fade-in 2.5s ease 18 alternate;
+}
+
+.fade-in-slow-20 {
+  -webkit-animation: fade-in 2.5s ease 20 alternate;
+          animation: fade-in 2.5s ease 20 alternate;
+}
+
+.fade-in-vslow-infinite {
+  -webkit-animation: fade-in 3s ease infinite;
+          animation: fade-in 3s ease infinite;
+}
+
+.fade-in-vslow-2 {
+  -webkit-animation: fade-in 3s ease 2 alternate;
+          animation: fade-in 3s ease 2 alternate;
+}
+
+.fade-in-vslow-4 {
+  -webkit-animation: fade-in 3s ease 4 alternate;
+          animation: fade-in 3s ease 4 alternate;
+}
+
+.fade-in-vslow-6 {
+  -webkit-animation: fade-in 3s ease 6 alternate;
+          animation: fade-in 3s ease 6 alternate;
+}
+
+.fade-in-vslow-8 {
+  -webkit-animation: fade-in 3s ease 8 alternate;
+          animation: fade-in 3s ease 8 alternate;
+}
+
+.fade-in-vslow-10 {
+  -webkit-animation: fade-in 3s ease 10 alternate;
+          animation: fade-in 3s ease 10 alternate;
+}
+
+.fade-in-vslow-12 {
+  -webkit-animation: fade-in 3s ease 12 alternate;
+          animation: fade-in 3s ease 12 alternate;
+}
+
+.fade-in-vslow-14 {
+  -webkit-animation: fade-in 3s ease 14 alternate;
+          animation: fade-in 3s ease 14 alternate;
+}
+
+.fade-in-vslow-16 {
+  -webkit-animation: fade-in 3s ease 16 alternate;
+          animation: fade-in 3s ease 16 alternate;
+}
+
+.fade-in-vslow-18 {
+  -webkit-animation: fade-in 3s ease 18 alternate;
+          animation: fade-in 3s ease 18 alternate;
+}
+
+.fade-in-vslow-20 {
+  -webkit-animation: fade-in 3s ease 20 alternate;
+          animation: fade-in 3s ease 20 alternate;
+}
+
+@-webkit-keyframes spinright {
+  0% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes spinright {
+  0% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+.spin-right {
+  width: 100px;
+  height: 100px;
+  background: #0000FF;
+  text-align: center;
+  color: #FFF;
+  -webkit-animation: spinright 3s linear 0s 1 pause;
+          animation: spinright 3s linear 0s 1 pause;
+}
+
+.spin-right:hover {
+  animation: spinright 3s linear 0s 1 reverse;
+}
+
+.spin-left {
+  width: 100px;
+  height: 100px;
+  background: #0000FF;
+  text-align: center;
+  color: #FFF;
+  -webkit-animation: spin-left 3s linear 0s 1 pause;
+          animation: spin-left 3s linear 0s 1 pause;
+}
+
+.spin-left:hover {
+  -webkit-animation: spin-left 3s linear 0s 1 normal;
+          animation: spin-left 3s linear 0s 1 normal;
+}
+
+@-webkit-keyframes spin-left {
+  0% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes spin-left {
+  0% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+.flip-forward {
+  width: 100px;
+  height: 100px;
+  background: #0000FF;
+  text-align: center;
+  color: #FFF;
+  -webkit-animation: flipforward 3s linear 0s 1 pause;
+          animation: flipforward 3s linear 0s 1 pause;
+}
+
+.flip-forward:hover {
+  animation: flipforward 3s linear 0s 1 reverse;
+}
+
+@-webkit-keyframes flipforward {
+  0% {
+    -webkit-transform: rotateX(360deg);
+            transform: rotateX(360deg);
+  }
+  100% {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+}
+
+@keyframes flipforward {
+  0% {
+    -webkit-transform: rotateX(360deg);
+            transform: rotateX(360deg);
+  }
+  100% {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+}
+
+.flip-back {
+  width: 100px;
+  height: 100px;
+  background: #0000FF;
+  text-align: center;
+  color: #FFF;
+  -webkit-animation: flipside 3s linear 0s 1 pause;
+          animation: flipside 3s linear 0s 1 pause;
+}
+
+.flip-back:hover {
+  -webkit-animation: flipside 3s linear 0s 1 normal;
+          animation: flipside 3s linear 0s 1 normal;
+}
+
+@-webkit-keyframes flipside {
+  0% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+
+@keyframes flipside {
+  0% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+
+.container {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000000;
+}
+
+.move-up {
+  height: 50px;
+  width: 50px;
+  background-color: #FFFF00;
+  -webkit-animation: moveup 3s linear 0s infinite;
+          animation: moveup 3s linear 0s infinite;
+}
+
+@-webkit-keyframes moveup {
+  from {
+    margin-top: 100%;
+  }
+  to {
+    margin-top: 0%;
+  }
+}
+
+@keyframes moveup {
+  from {
+    margin-top: 100%;
+  }
+  to {
+    margin-top: 0%;
+  }
+}
+
+.move-down {
+  height: 50px;
+  width: 50px;
+  background-color: #FFFF00;
+  -webkit-animation: movedown 3s linear 0s infinite;
+          animation: movedown 3s linear 0s infinite;
+}
+
+@-webkit-keyframes movedown {
+  from {
+    margin-top: 0%;
+  }
+  to {
+    margin-top: 100%;
+  }
+}
+
+@keyframes movedown {
+  from {
+    margin-top: 0%;
+  }
+  to {
+    margin-top: 100%;
+  }
+}
+
+.move-left {
+  height: 50px;
+  width: 50px;
+  background-color: #FFFF00;
+  -webkit-animation: moveleft 3s linear 0s infinite;
+          animation: moveleft 3s linear 0s infinite;
+}
+
+@-webkit-keyframes moveleft {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+
+@keyframes moveleft {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+
+.move-right {
+  height: 50px;
+  width: 50px;
+  background-color: #FFFF00;
+  -webkit-animation: moveright 3s linear 0s infinite;
+          animation: moveright 3s linear 0s infinite;
+}
+
+@-webkit-keyframes moveright {
+  from {
+    margin-left: 0%;
+  }
+  to {
+    margin-left: 100%;
+  }
+}
+
+@keyframes moveright {
+  from {
+    margin-left: 0%;
+  }
+  to {
+    margin-left: 100%;
+  }
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,24 @@
+@mixin move-2() {
+    height: 50px;
+    width: 50px;
+    background-color: #FFFF00;
+
+}
+
+.container{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000000
+}
+
+.move-up {
+    @include move-2;
+    animation: moveup 3s linear 0s infinite;
+    
+}
+
+@keyframes moveup {
+    from{margin-top: 100%;}
+    to{margin-top: 0%;}
+}
+
